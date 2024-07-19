@@ -1,4 +1,4 @@
-string dimensions_request
+
 ---
 int8 state_dim
 int8 action_dim
