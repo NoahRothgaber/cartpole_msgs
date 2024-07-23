@@ -26,6 +26,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CartpoleState.msg"
   "msg/CartpoleAction.msg"
+  "srv/EnvReset.srv"
+  "srv/EnvSetup.srv"
+  "srv/EnvStep.srv"
  )
 
 ament_package()
